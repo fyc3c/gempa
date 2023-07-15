@@ -49,8 +49,6 @@ if "y" in simpan:
         json.dump(data, f)
         f.close()
         print (Fore.YELLOW + "[!] Data Berhasil Disimpan dengan nama", Fore.GREEN + f"{nama_file}{jenis_file}\n")
-        for datas in data:
-            print (data)
 
 elif "n" in simpan:
     sys.exit("\n[!] Good Bye!~")
